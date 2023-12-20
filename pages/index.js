@@ -12,6 +12,7 @@ const Home = () => {
             width={150}
             height={52}
             className="rounded-md"
+            layout="fixed"
           />
         </div>
       </div>
