@@ -1,14 +1,31 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import getPostIcon from "../public/getPostIcon.jpg";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+const Home = () => {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
-    >
-      Get Post AI APP
-    </main>
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-black text-white">
+      <div className="mb-8">
+        <div className="rounded-md overflow-hidden">
+          <Image
+            src={getPostIcon}
+            alt="Get Post Icon"
+            width={150}
+            height={52}
+            className="rounded-md"
+          />
+        </div>
+      </div>
+      <div className="text-2xl lg:text-4xl font-bold text-center mb-8">
+        Get Post AI
+      </div>
+      <a
+        href="https://apps.apple.com/us/app/get-post-ai/id6474195231"
+        className="bg-white text-black px-6 lg:px-8 py-3 lg:py-4 rounded-full text-base lg:text-lg hover:bg-gray-200"
+      >
+        Download Now
+      </a>
+    </div>
   );
-}
+};
+
+export default Home;
