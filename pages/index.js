@@ -19,12 +19,20 @@ const Home = () => {
       <div className="text-2xl lg:text-4xl font-bold text-center mb-8">
         Get Post AI
       </div>
-      <a
-        href="https://apps.apple.com/us/app/get-post-ai/id6474195231"
-        className="bg-white text-black px-6 lg:px-8 py-3 lg:py-4 rounded-full text-base lg:text-lg hover:bg-gray-200"
-      >
-        Download Now
-      </a>
+      <div className="flex flex-col items-center gap-4 sm:flex-row">
+        <a
+          href="https://apps.apple.com/us/app/get-post-ai/id6474195231"
+          className="btn-primary"
+        >
+          Download Now
+        </a>
+        <a
+          href="mailto:contact@getpostaidemo.com?subject=Contact%20Get%20Post%20AI"
+          className="btn-secondary"
+        >
+          Contact Us
+        </a>
+      </div>
     </div>
   );
 };
