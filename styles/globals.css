@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pagePink min-h-screen;
+  }
+
+  button {
+    @apply bg-buttonViolet text-white font-semibold rounded-full px-4 py-2 transition-colors duration-200;
+  }
+
+  button:hover {
+    @apply bg-buttonVioletHover;
+  }
+}
+
+@layer utilities {
+  a[href="https://apps.apple.com/us/app/get-post-ai/id6474195231"] {
+    @apply bg-buttonViolet text-white px-6 lg:px-8 py-3 lg:py-4 rounded-full text-base lg:text-lg transition-colors duration-200 hover:bg-buttonVioletHover;
+  }
+}
