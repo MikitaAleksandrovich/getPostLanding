@@ -25,6 +25,18 @@ const Home = () => {
       >
         Download Now
       </a>
+      <p className="mt-6 text-sm text-center text-gray-300">
+        Learn more about Ovren AI at{" "}
+        <a
+          href="https://ovren.ai"
+          className="underline hover:text-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ovren.ai
+        </a>
+        .
+      </p>
     </div>
   );
 };
