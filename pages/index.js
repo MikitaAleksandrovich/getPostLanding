@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import getPostIcon from "../public/getPostIcon.jpg";
 
 const Home = () => {
@@ -25,6 +26,12 @@ const Home = () => {
       >
         Download Now
       </a>
+      <Link
+        href="/whats-new"
+        className="mt-6 text-sm lg:text-base text-gray-300 hover:text-white underline underline-offset-4"
+      >
+        See what&apos;s new
+      </Link>
     </div>
   );
 };
