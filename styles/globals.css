@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.whats-new-list li::marker {
+  color: #a855f7;
+}
