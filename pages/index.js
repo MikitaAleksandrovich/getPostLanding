@@ -3,7 +3,7 @@ import getPostIcon from "../public/getPostIcon.jpg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-black text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-blue-600 text-white">
       <div className="mb-8">
         <div className="rounded-md overflow-hidden">
           <Image
