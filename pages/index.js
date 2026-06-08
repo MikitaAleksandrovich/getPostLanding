@@ -19,6 +19,12 @@ const Home = () => {
       <div className="text-2xl lg:text-4xl font-bold text-center mb-8">
         Get Post AI
       </div>
+      <section
+        id="how-it-works"
+        className="w-full max-w-3xl text-center mb-8 lg:mb-12"
+      >
+        <h2 className="text-xl lg:text-2xl font-semibold">Check it out</h2>
+      </section>
       <a
         href="https://apps.apple.com/us/app/get-post-ai/id6474195231"
         className="bg-white text-black px-6 lg:px-8 py-3 lg:py-4 rounded-full text-base lg:text-lg hover:bg-gray-200"
