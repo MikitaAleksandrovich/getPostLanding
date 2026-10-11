@@ -3,7 +3,7 @@ import getPostIcon from "../public/getPostIcon.jpg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-black text-white">
+    <div className="main-page flex flex-col items-center justify-center min-h-screen p-8 text-white">
       <div className="mb-8">
         <div className="rounded-md overflow-hidden">
           <Image
@@ -16,7 +16,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="text-2xl lg:text-4xl font-bold text-center mb-8">
+      <div className="main-page-title text-2xl lg:text-4xl font-bold text-center mb-8">
         Get Post AI
       </div>
       <a
